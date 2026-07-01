@@ -1,0 +1,6 @@
+{
+  "name": "HireLens AI",
+  "description": "An AI-powered resume intelligence platform that helps students and professionals optimize their resumes for Applicant Tracking Systems (ATS) using Google Gemini, LangChain, and RAG.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

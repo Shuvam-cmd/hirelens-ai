@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-gold: #F5C542;
+  --color-gold-accent: #FFD95A;
+  --color-gold-dark: #CFA123;
+  --color-brand-bg: #0B0B0B;
+  --color-brand-sec: #121212;
+  --color-brand-card: #161616;
+  --color-brand-nav: #0F0F0F;
+  --color-brand-input: #1A1A1A;
+  --color-brand-border: #2A2A2A;
+  --color-brand-text: #FFFFFF;
+  --color-brand-text-sec: #B3B3B3;
+  --color-brand-text-muted: #7A7A7A;
+}
+
+/* Custom premium styles */
+.glass-panel {
+  background: rgba(22, 22, 22, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #2A2A2A;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(245, 197, 66, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(245, 197, 66, 0.05);
+}
+
+.glow-gold {
+  box-shadow: 0 0 30px -5px rgba(245, 197, 66, 0.2);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFD95A 0%, #F5C542 50%, #CFA123 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #FFD95A 0%, #F5C542 100%);
+}
+
